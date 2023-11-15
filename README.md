@@ -1,10 +1,10 @@
-# Over Network FE quest - Auth part 1
+# Overmind Over Network
 
 This is the starter template for Overmind's *Over Network Auth part 1* quest. The original *Over Network* quest can be view [here](https://overmind.xyz/quests/over-network).
 
 # Table of Contents
 
-- [Over Network FE quest - Auth part 1](#over-network-fe-quest---auth-part-1)
+- [Overmind Over Network](#overmind-over-network)
 - [Table of Contents](#table-of-contents)
 - [Tech Stack](#tech-stack)
   - [React and Next.js](#react-and-nextjs)
@@ -94,3 +94,7 @@ This function can be found in [`./lib/actions.ts`](./lib/actions.ts).
   4. Complete the quests by following the TODO comments in the following files (recommended order):
        - [`app/layout.tsx`](./layout.tsx)
        - [`app/loginWindow.tsx`](./loginWindow.tsx)
+
+## License
+
+Overmind Over Network is licensed under [GNU General Public License v3.0](LICENSE).
