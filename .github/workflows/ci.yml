@@ -26,5 +26,5 @@ jobs:
         run: |
           webhook_url="https://mod.overmind.xyz/api/handle-test-run"
           output=$(cat output.txt)
-          json_payload=$(python3 -c "import json, sys; print(json.dumps({'output': sys.argv[1], 'secretKey': '${{inputs.secretKey}}', 'questId': '${{inputs.questId}}', 'userId': '${{inputs.userId}}' }))" "$output")
+          json_payload=$(python3 -c "import json, sys; print(json.dumps({'output': sys.argv[1], 'secretKey': '${{ inputs.secretKey }}', 'questId': '${{ inputs.questId }}', 'userId': '${{ inputs.userId }}' }))" "$output")
           curl -X POST -H "Content-Type: application/json" -d "$json_payload" "$webhook_url"
